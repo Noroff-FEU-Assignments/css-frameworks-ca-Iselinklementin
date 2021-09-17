@@ -14,7 +14,7 @@ const Checkbox = styled(FormCheck)`
   & .form-check-input {
     background-color: ${prop => prop.theme.primaryColour};
     height: 36px;
-    width: 36px;
+    min-width: 36px;
     border: none;
     margin-right: 1rem;
   }
